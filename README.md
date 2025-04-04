@@ -1,8 +1,8 @@
 # 🏆 Hackathon 1: Portfolio Building Submission
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/EsaKris/portfolio/main/images/profile.jpeg" alt="Portfolio Banner" width="100%" style="border-radius: 8px; margin-bottom: 20px;">
-  <h2>Esa Kris - Portfolio Project</h2>
+     <img src="https://github.com/EsaKris/Hackathon-Portfolio-Building/raw/main/images/profile.jpeg" alt="Esa Kris Profile Picture" width="300" style="border-radius: 50%; border: 3px solid #3498db; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
+    <h2>Esa Kris - Portfolio Project</h2>
   <p>Web Developer | UI Developer | Hackathon Participant</p>
   
   <div>
