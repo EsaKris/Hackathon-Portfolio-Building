@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esa Kris - Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/profile.jpeg" alt="Logo" class="nav-logo">
+                <span>Esa Kris</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Esa Kris</span></h1>
+            <h2>Web Developer || UI Developer</h2>
+            <p>Creating beautiful, functional websites</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/developer.svg" alt="Developer illustration">
+        </div>
+        
+    </section>
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a passionate web developer with 2 years of experience building modern web applications. I specialize in front-end development but also have back-end skills.</p>
+                <div class="skills">
+                    <h3>My Skills</h3>
+                    <div class="skill-tags">
+                        <span style="background-color: #e34c26; color: white; padding: 5px 10px; border-radius: 5px;">HTML</span>
+                        <span style="background-color: #264de4; color: white; padding: 5px 10px; border-radius: 5px;">CSS</span>
+                        <span style="background-color: #f7df1e; color: black; padding: 5px 10px; border-radius: 5px;">JavaScript</span>
+                        <span style="background-color: #61dafb; color: black; padding: 5px 10px; border-radius: 5px;">React</span>
+                        <span style="background-color: #339933; color: white; padding: 5px 10px; border-radius: 5px;">Node.js</span>
+                        <span style="background-color: #4db33d; color: white; padding: 5px 10px; border-radius: 5px;">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="images/profile.jpeg" alt="Profile picture">
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid" id="projects-container">
+            <p>Loading projects...</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><i class="fas fa-envelope"></i> stylezgraphics@gmail.com</p>
+                <p><i class="fas fa-phone"></i> (+234) 9155775787</p>
+                <div class="social-links">
+                    <a href="https://github.com/EsaKris"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ekre-christian-18008b299/"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> My Portfolio. All rights reserved.</p>
+        <div class="visitor-count">
+            <span id="visitor-counter">0</span> visitors
+        </div>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
