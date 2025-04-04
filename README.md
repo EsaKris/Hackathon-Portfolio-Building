@@ -93,7 +93,8 @@ hackathon-portfolio/
 1. Esa Kris (Team Lead)
 2. shadrack oguta
 3. doreen	muthee 
-4. paulette	maina 
+4. paulette	maina
+5. Cyprian Cherono
 
 **Collaboration Highlights:**
 - Weekly code review sessions
