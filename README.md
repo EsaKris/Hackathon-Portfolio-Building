@@ -95,6 +95,7 @@ hackathon-portfolio/
 3. doreen	muthee 
 4. paulette	maina
 5. Cyprian Cherono
+6. fatuma abdi
 
 **Collaboration Highlights:**
 - Weekly code review sessions
