@@ -74,7 +74,7 @@ hackathon-portfolio/
 
 
 ## 🚀 Deployment
-**Live URL:** [https://esakris.github.io/hackathon-portfolio](https://esakris.github.io/hackathon-portfolio)  
+**Live URL:** [https://esakris.github.io/hackathon-portfolio](https://esakris.github.io/Hackathon-Portfolio-Building/)  
 
 
 ## 🏅 Evaluation Criteria Alignment
